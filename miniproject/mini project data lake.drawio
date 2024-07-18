@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" modified="2024-07-18T18:43:11.934Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36 Edg/126.0.0.0" etag="NJ1g1LpKHsIY11_bpAsR" version="24.6.5" type="device">
+  <diagram name="Page-1" id="1Qmn1_tZVBcW2qT_n4rL">
+    <mxGraphModel dx="995" dy="577" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n0Vyz03S2VGSYBUonwRb-33" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="710" y="27.25" width="339.5" height="339.5" as="geometry" />
+        </mxCell>
+        <mxCell id="n0Vyz03S2VGSYBUonwRb-21" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="187.29" y="39.5" width="315" height="315" as="geometry" />
+        </mxCell>
+        <mxCell id="n0Vyz03S2VGSYBUonwRb-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="n0Vyz03S2VGSYBUonwRb-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="197" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n0Vyz03S2VGSYBUonwRb-2" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
+          <mxGeometry x="40" y="152" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n0Vyz03S2VGSYBUonwRb-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="n0Vyz03S2VGSYBUonwRb-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="197" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n0Vyz03S2VGSYBUonwRb-5" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/analytics/Azure_Databricks.svg;" vertex="1" parent="1">
+          <mxGeometry x="300" y="148.5" width="89.58" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="n0Vyz03S2VGSYBUonwRb-11" value="Extract source parquet&amp;nbsp;&lt;div&gt;files from S3&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="250" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n0Vyz03S2VGSYBUonwRb-12" value="Extract columns to&amp;nbsp;&lt;div&gt;create&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;songs, artist, user,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;time, and songplay tables&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="260" y="250" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n0Vyz03S2VGSYBUonwRb-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="n0Vyz03S2VGSYBUonwRb-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="750" y="193.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n0Vyz03S2VGSYBUonwRb-15" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#7AA116;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
+          <mxGeometry x="565" y="148.5" width="90" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n0Vyz03S2VGSYBUonwRb-16" value="Write tables back into S3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="255" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n0Vyz03S2VGSYBUonwRb-22" value="Data Transformation" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="279.78999999999996" y="90" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n0Vyz03S2VGSYBUonwRb-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="n0Vyz03S2VGSYBUonwRb-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="794" y="270" />
+              <mxPoint x="960" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n0Vyz03S2VGSYBUonwRb-23" value="" style="shape=mxgraph.signs.nature.snowflake;html=1;pointerEvents=1;fillColor=#000000;strokeColor=none;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="750" y="144" width="87" height="98" as="geometry" />
+        </mxCell>
+        <mxCell id="n0Vyz03S2VGSYBUonwRb-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="n0Vyz03S2VGSYBUonwRb-28" target="n0Vyz03S2VGSYBUonwRb-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960" y="80" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="960" y="120" />
+              <mxPoint x="794" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n0Vyz03S2VGSYBUonwRb-28" value="External Stage" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="167" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n0Vyz03S2VGSYBUonwRb-34" value="Load tables into transient tables&amp;nbsp;&lt;div&gt;in Snowflake using INSERT&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="779.75" y="295" width="200" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
